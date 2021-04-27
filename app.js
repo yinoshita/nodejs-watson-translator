@@ -29,9 +29,9 @@ app.post('/', (req, res) => {
     const languageTranslator = new LanguageTranslatorV3({
         version: '2018-05-01',
         authenticator: new IamAuthenticator({
-          apikey: 'P8WG_fZrXaw2xt7FAqAbm3vx49GJV-iyhvWKPT34bf0T',
+          apikey: 'K86dVr6I4UXjhz0UShmY0TQv1ubgzrxHh0hvufweY0yh',
         }),
-        serviceUrl: 'https://api.us-south.language-translator.watson.cloud.ibm.com/instances/3c68918e-9d64-4ad4-8166-3ce96a3aed4e',
+        serviceUrl: 'https://api.us-south.language-translator.watson.cloud.ibm.com/instances/a4acd318-94f3-4ffe-9f6f-45fee45862c9',
       });
       
       // Watson Translatorへ渡すパラメーターの設定
